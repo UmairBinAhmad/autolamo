@@ -1,0 +1,197 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+
+
+.img-portfolio {
+    margin-bottom: 0px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 100%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*-------------->Home section <----------------------*/
+
+.header.carousel .fill h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 86px; font-weight:700;
+    font-family: lato;
+    color: white;
+	text-transform:uppercase; text-align:center;
+}
+.header.carousel .fill span1{color:#00a1b1;}
+.banner{margin:0; padding:170px 0 0 0; }
+.banner h1{margin:50px 0 0 0; padding:0; font-family:lato; font-size:86px; font-weight:800; text-transform:uppercase; color:#fff; text-align:center;}
+.banner p{margin:50px 0 30px 0; padding:0; font-family:lato; font-size:30px; text-align:center; color:#FFF;}
+.banner span{color:#00a1b1}
+.read_more_box{margin:0 0 30px 610px; padding:10px 0 0 20px; width:130px; height:50px; background:#00a1b1;}
+.read_more_box a{margin:0; padding: 0; font-family:lato; font-size:17px; text-decoration:none; color:#FFF;}
+
+
+
+
+.welcome_box{margin:0; padding:0; width:100%;}
+.welcome_box h1{margin:30px 0 0 0; padding:0; font-family:lato; font-size:50px; font-weight:800; text-transform:uppercase; color:#00a1b1; text-align:center;}
+.welcome_box span{color:#945403}
+.welcome_box img{margin:30px 0 0 110px; padding:0; }
+.welcome_box h2{margin:20px 0 0 100px; padding:0; font-family:lato; font-size:22px;  text-transform:uppercase; color:#945403; ;}
+.welcome_box p{margin:15px 0 15px 0; padding:0; font-family:lato; font-size:17px; text-align:center;}
+.read_box{margin:0 0 30px 90px; padding:0; width:130px; height:50px; background:#00a1b1;}
+.read_box p{margin:0; padding:15px; font-family:lato; font-size:17px;}
+.read_box p a{text-decoration:none; color:#FFF;}
+
+
+
+
+.service_box{margin:0; padding:0; width:100%; background:# CCC;}
+.overlay2{margin:0; padding:60px 0 60px 0; width:100%; background:rgba(0,0,0.5,0.5); } 
+.overlay2 h1{margin:0; padding:0; font-family:lato; font-size:60px; font-weight:700; text-align:center; text-transform:uppercase; color:#FFF;}
+.overlay2 p{margin:30px 0 20px 0; padding:0; font-size:17px; font-family:lato; text-align:center; color:#FFF;}
+.services_box{margin:30px 0 0 0; padding:20px; background:#00a1b1; border:1px solid #CCC; }
+.services_box h1{margin:0; padding:0; font:lato; font-size:30px; text-transform:none; text-align:center; color:#FFF;}
+.services_box p{margin:20px 0 0 0; padding:0; font:lato; font-size:17px; color:#FFF;}
+
+.project_section{margin:0; padding:0; width:100%; background:#00a1b1;}
+.project_section h1{margin:50px 0 0 0; padding:0; font-family:lato; font-size:60px; text-align:center; color:#fff;}
+.project_section p{margin:20px 0 10px 0; padding:0; font-family:lato; font-size:16px; text-align:center; color:#FFF;}
+.project_box{margin:20px 0 0 0; padding:20px; background:#FFF; }
+.project_box h1{margin:0 0 20px 0; padding:0; font-family:lato; font-size:16px; color:#00a1b1;}
+.project_box p{margin:-160px 0 0 252px; padding:0; font-family:lato; font-size:12px; color: #CCC;}
+.project_box img{margin:0; padding:0;}
+.view_more_box{margin:30px 0 50px 500px; padding:0; width:140px; height:50px; border:1px solid #fff;}
+.view_more_box p{margin:0; padding:10px; font-family:lato; text-transform:uppercase; font-size:17px;}
+.view_more_box p a{text-decoration:none; color:#fff;}
+
+
+.achivement_box{margin:0; padding:60px; width:100%; background-image:url(../images/images/achivement.jpg);}
+.achivement_box h1{margin:0; padding:0; font:lato; font-size:60px; text-transform:none;font-weight:700; text-align:center; color:#FFF;}
+.achivement_box p{margin:40px 0 10px 0; padding:0; font:lato; font-size:17px; text-align:center; color:#FFF;}
+
+
+
+.latest_news{margin:0; padding:50px 20px 50px 20px; width:100%;}
+.latest_news h1{margin:0; padding:0; font:lato; font-size:60px; font-weight:700; text-align:center; color:#00a1b1;}
+.latest_news_box{margin:0; padding:0;  border:1px solid #999; }
+.latest_news_box img{margin:0; padding:0; }
+.latest_news_box p{margin:-40px 0px 16px 99px; padding:0; font:lato; font-size:17px;color:#CCC;}
+.color_box{margin:0 0 0 0; padding:0 0 2px 0; background:#CCC;}
+.text_box{margin:-50px 0 20px 20px; padding:30px 20px 30px 20px; width:320px;  background:#fff; position:relative; }
+.text_box h1{margin:0; padding:0; font:lato; font-size:15px; text-align:center; color:#000;}
+.text_box p{margin:20px 0 20px 0; padding:0;  font:lato; font-size:14px; color:#000;}
+
+.view_box{margin:0 0 0 75px; padding:0; width:140px; height:50px; border:1px solid #00a1b1;}
+.view_box p{margin:0; padding:10px; font-family:lato; text-transform:uppercase; font-size:17px;}
+.view_box p a{text-decoration:none; color:#00a1b1;}
+
+
+
+
+
+
+
+/*---------------->About Section <-------------------------------*/
+.about_box{margin:0; padding:0; width:100%; height:165px; background:#00a1b1;}
+.about_box h1{ margin: 60px 0 0 0;
+    padding: 0;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;}
+ img {
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+.about_sect{margin:0; padding:0; width:100%;}
+.about_sect img{margin:45px 0; padding:0; width:100%}
+.about_sect p{margin:45px 0; padding:0; width:100%; font-size:16px; font-family:lato;}
+
+.our_vison{margin:0; padding:0; width:100%; background-image: url(../images/our%20visio.jpg);}
+.vison_box{margin:40px 0; padding:40px; width:100%; background:rgba(0,0,0,0.75) ; color:#000;}
+.vison_box h1{margin:0; padding:0 0 15px 0; width:200px; font-size:36px; font-family:lato; text-transform: uppercase; color:#00a1b1; border-bottom:2px solid #FFF;}
+.vison_box span{color:#945403;}
+.vison_box p{margin:30px 0 0 0; padding:0; font-size:16px; font-family:lato; color:#FFF;}
+
+.our_mission{margin:0; padding:0; width:100%;}
+.our_mission h1{margin:40px 0 0 0; padding:0 0 15px 0; width:240px; font-size:36px; font-family:lato; text-transform: uppercase; color:#00a1b1; border-bottom:2px solid #333;}
+.our_mission span{color:#945403;}
+.our_mission p{margin:40px 0 50px 0; padding:0; font-size:16px; font-family:lato; }
+.our_mission img{margin:0 15px 10px 0; padding:0; }
+
+.info{margin:0; padding:0; width:100%; background-image: url(../images/fotter.jpg);}
+.overlay{margin:0; padding:0; width:100%; background:rgba(0,0,0,0.75) ; color:#000;}
+.overlay h1{margin:40px 0 0 0; padding:0; width:100%; font-size:30px; font-family:lato; text-transform: uppercase; color:#fff; }
+.overlay p{margin:15px 0 50px 0; padding:0; font-size:17px; font-family:lato; text-transform:uppercase; color:#FFF; }
+.overlay h2{margin:15px 0 50px 0; padding:0; font-size:18px; font-family:lato; color:#FFF; }
+.textfield_box{margin:0; padding:0; width:100%; }
+.textfield{margin:0 0 20px 0; padding:15px; font-size:18px; width:100%; height:40px;  border:1px solid #fff ;}
+
+.overlay button {
+    background: #00a1b1;
+    border: none;
+    margin: 0;
+    padding: 11px;
+    float: right;
+}
+
+.fotter{margin:0; padding:0; width:100%; background:#00a1b1;}
+.fotter p{margin:30px 0; padding:0; width:100%; font-size:14px; font-family:lato; color:#FFF;}
+.fotter img{margin:20px 0 0 10px; padding:0; float:right;}
+
+
+
+
+/*-----------contact us--------------------------*/
+
+
+.map{ margin:0; padding:0; width:100%; }
+.contact_us_box{margin:0; padding:0; width:100%;}
+.contact_us_box h1{margin:30px 0 20px 0; padding:0;  font-size:30px; font-family:lato;font-weight:600; text-transform: uppercase; color:#00a1b1; }
+.contact_us_box p{margin:20px 0 20px 0; padding:0; font-size:36px; font-family:lato; }
+.contact_us_box span{color:#00a1b1;}
+
+.textfield{margin:0 0 10px 0; padding:15px; font-size:20px; width:100%; height:40px;  border:2px solid #00a1b1 ;}
+.textfield2{margin:0 0 20px 0; padding:15px; font-size:20px; width:100%; height:140px;  border:2px solid #00a1b1 ;}
+.contact_us_box button{
+    
+    border: 2px solid #00a1b1;
+    margin: 0 0 30px 0;
+    padding: 11px;
+    float: right;
+	background:#FFF;
+	color:#00a1b1;
+}
+
+
+
+
